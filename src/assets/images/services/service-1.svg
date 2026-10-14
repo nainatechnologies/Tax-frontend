@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400" fill="none">
+  <defs>
+    <linearGradient id="srv1-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#172554"/>
+      <stop offset="100%" stop-color="#0F172A"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#srv1-bg)"/>
+  <g transform="translate(75, 50)">
+    <rect width="450" height="300" rx="16" fill="#0F172A" stroke="#3B82F6" stroke-width="2"/>
+    <circle cx="225" cy="110" r="45" fill="#2563EB" fill-opacity="0.2"/>
+    <path d="M210 100 L195 110 L210 120 M240 100 L255 110 L240 120 M230 95 L220 125" stroke="#38BDF8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="225" y="190" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="20" font-weight="700" fill="#FFFFFF">Full-Stack Web &amp; Mobile</text>
+    <text x="225" y="220" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" fill="#94A3B8">React, Next.js, Node.js, GraphQL &amp; Cloud Native Architecture</text>
+    <rect x="160" y="245" width="130" height="30" rx="6" fill="#2563EB"/>
+    <text x="225" y="265" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="600" fill="#FFFFFF">Enterprise Level</text>
+  </g>
+</svg>

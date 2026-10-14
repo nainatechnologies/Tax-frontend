@@ -1,0 +1,6 @@
+{
+  "name": "TaxVantage - Premium Tax Consultancy & ITR Filing Platform",
+  "description": "Enterprise-grade Tax Consultancy, ITR Filing, and GST compliance platform with dedicated Chartered Accountant workflows, document vault, and real-time case tracking.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

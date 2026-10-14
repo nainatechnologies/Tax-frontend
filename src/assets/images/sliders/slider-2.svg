@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" fill="none">
+  <defs>
+    <linearGradient id="s2-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#091428"/>
+      <stop offset="60%" stop-color="#172554"/>
+      <stop offset="100%" stop-color="#312E81"/>
+    </linearGradient>
+    <filter id="blur2" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="50"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="800" fill="url(#s2-bg)"/>
+  
+  <circle cx="800" cy="300" r="240" fill="#6366F1" opacity="0.3" filter="url(#blur2)"/>
+  <circle cx="1000" cy="550" r="190" fill="#0284C7" opacity="0.25" filter="url(#blur2)"/>
+
+  <!-- Isometric Product / Mobile Mockups -->
+  <g transform="translate(560, 100)">
+    <!-- Mobile Frame 1 -->
+    <rect x="0" y="80" width="280" height="540" rx="36" fill="#0F172A" stroke="#475569" stroke-width="4" filter="drop-shadow(0 25px 45px rgba(0,0,0,0.6))"/>
+    <rect x="15" y="95" width="250" height="510" rx="26" fill="#1E293B"/>
+    <circle cx="140" cy="115" r="5" fill="#334155"/>
+    
+    <!-- Mobile Screen UI -->
+    <rect x="35" y="145" width="140" height="16" rx="4" fill="#60A5FA"/>
+    <rect x="35" y="170" width="90" height="10" rx="3" fill="#64748B"/>
+    
+    <rect x="35" y="200" width="210" height="120" rx="14" fill="#0F172A" stroke="rgba(255,255,255,0.08)"/>
+    <circle cx="65" cy="235" r="14" fill="#3B82F6"/>
+    <rect x="90" y="228" width="80" height="12" rx="3" fill="#FFFFFF"/>
+    <text x="35" y="370" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="700" fill="#FFFFFF">Recent Transactions</text>
+    <rect x="35" y="390" width="210" height="44" rx="10" fill="#0F172A" opacity="0.8"/>
+    <rect x="35" y="445" width="210" height="44" rx="10" fill="#0F172A" opacity="0.8"/>
+    <rect x="35" y="500" width="210" height="44" rx="10" fill="#0F172A" opacity="0.8"/>
+
+    <!-- Mobile Frame 2 (Floating behind) -->
+    <g transform="translate(200, -30)">
+      <rect width="280" height="540" rx="36" fill="#0F172A" stroke="#334155" stroke-width="3" filter="drop-shadow(0 25px 45px rgba(0,0,0,0.5))"/>
+      <rect x="15" y="15" width="250" height="510" rx="26" fill="#1E293B"/>
+      
+      <!-- Analytics Screen -->
+      <rect x="35" y="55" width="110" height="14" rx="4" fill="#A855F7"/>
+      <rect x="35" y="85" width="210" height="160" rx="14" fill="#0F172A"/>
+      <circle cx="140" cy="155" r="45" fill="none" stroke="#6366F1" stroke-width="12" stroke-dasharray="180 70"/>
+      <text x="140" y="162" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="16" font-weight="700" fill="#FFFFFF">84%</text>
+    </g>
+
+    <!-- Floating Badge -->
+    <g transform="translate(-60, 260)">
+      <rect width="200" height="64" rx="14" fill="#0F172A" stroke="rgba(255,255,255,0.15)" stroke-width="1" filter="drop-shadow(0 15px 30px rgba(0,0,0,0.4))"/>
+      <circle cx="32" cy="32" r="16" fill="#3B82F6"/>
+      <path d="M26 32L30 36L38 28" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"/>
+      <text x="58" y="27" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#94A3B8">Cross-Platform</text>
+      <text x="58" y="45" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="700" fill="#FFFFFF">Native Performance</text>
+    </g>
+  </g>
+</svg>

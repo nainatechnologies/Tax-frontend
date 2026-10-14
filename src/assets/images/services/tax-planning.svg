@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" fill="none">
+  <rect width="600" height="400" rx="12" fill="#0f172a"/>
+  <rect x="40" y="40" width="520" height="320" rx="8" fill="#1e293b" stroke="#334155"/>
+  <g transform="translate(80, 80)">
+    <rect x="0" y="0" width="80" height="80" rx="16" fill="#f59e0b" fill-opacity="0.15"/>
+    <path d="M25 55L38 38L48 45L58 25" stroke="#fbbf24" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="110" y="35" fill="#ffffff" font-size="22" font-weight="700" font-family="'Plus Jakarta Sans', sans-serif">Strategic Tax Planning</text>
+    <text x="110" y="62" fill="#94a3b8" font-size="14" font-family="'Plus Jakarta Sans', sans-serif">Legitimate wealth preservation &amp; deduction maximizing</text>
+    
+    <line x1="0" y1="110" x2="440" y2="110" stroke="#334155"/>
+    
+    <text x="0" y="150" fill="#cbd5e1" font-size="13" font-family="'Plus Jakarta Sans', sans-serif">✓ Old vs New Regime Mathematical Simulation</text>
+    <text x="0" y="180" fill="#cbd5e1" font-size="13" font-family="'Plus Jakarta Sans', sans-serif">✓ Capital Gains Loss Harvesting &amp; Carry-Forward</text>
+    <text x="0" y="210" fill="#cbd5e1" font-size="13" font-family="'Plus Jakarta Sans', sans-serif">✓ ESOP, RSU &amp; Foreign Asset Reporting Structure</text>
+  </g>
+</svg>

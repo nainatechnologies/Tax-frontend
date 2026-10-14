@@ -1,0 +1,121 @@
+.assign-ca-modal-body {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.assign-instruction {
+  font-size: var(--font-size-sm);
+  color: var(--text-secondary);
+}
+
+.ca-selection-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+.ca-select-card {
+  border: 1.5px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 1.15rem;
+  background-color: #ffffff;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 0.85rem;
+  transition: all var(--transition-fast);
+}
+
+.ca-select-card:hover {
+  border-color: var(--accent-color);
+  box-shadow: var(--shadow-sm);
+}
+
+.ca-select-card.selected {
+  border-color: var(--accent-color);
+  background-color: #f8faff;
+  box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.2);
+}
+
+.ca-id-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  font-family: monospace;
+  font-size: 0.6875rem;
+  font-weight: 700;
+  background: #f1f5f9;
+  padding: 0.2rem 0.5rem;
+  border-radius: var(--radius-xs);
+  color: #475569;
+}
+
+.ca-avail-badge {
+  font-size: 0.6875rem;
+  font-weight: 700;
+  padding: 0.15rem 0.5rem;
+  border-radius: var(--radius-full);
+}
+
+.ca-avail-badge.avail {
+  background: #ecfdf5;
+  color: #047857;
+}
+
+.ca-avail-badge.busy {
+  background: #fffbeb;
+  color: #b45309;
+}
+
+.ca-name {
+  font-size: var(--font-size-base);
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: 0.25rem;
+}
+
+.ca-spec {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  line-height: 1.35;
+}
+
+.ca-card-metrics {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.5rem;
+  padding: 0.6rem 0;
+  border-top: 1px solid var(--border-light);
+  border-bottom: 1px solid var(--border-light);
+  font-size: 0.6875rem;
+}
+
+.metric-lbl {
+  display: block;
+  color: var(--text-muted);
+}
+
+.ca-select-indicator {
+  text-align: right;
+  font-size: 0.75rem;
+  font-weight: 700;
+}
+
+.selected-tag {
+  color: var(--accent-color);
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.select-tag {
+  color: #94a3b8;
+}
+
+@media (max-width: 640px) {
+  .ca-selection-grid {
+    grid-template-columns: 1fr;
+  }
+}

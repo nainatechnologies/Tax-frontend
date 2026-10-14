@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" fill="none">
+  <defs>
+    <linearGradient id="slider1_bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="50%" stop-color="#1e293b" />
+      <stop offset="100%" stop-color="#090d16" />
+    </linearGradient>
+    <linearGradient id="emerald_glow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10b981" />
+      <stop offset="100%" stop-color="#059669" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" rx="16" fill="url(#slider1_bg)"/>
+  <circle cx="680" cy="120" r="180" fill="#2563eb" fill-opacity="0.15" filter="blur(40px)"/>
+  <circle cx="150" cy="400" r="140" fill="#10b981" fill-opacity="0.12" filter="blur(30px)"/>
+  
+  <!-- Dashboard UI Mockup inside Hero -->
+  <g transform="translate(100, 60)">
+    <rect x="0" y="0" width="600" height="380" rx="12" fill="#1e293b" stroke="#334155" stroke-width="2"/>
+    <!-- Window Header -->
+    <rect x="0" y="0" width="600" height="42" rx="12" fill="#0f172a"/>
+    <circle cx="24" cy="21" r="5" fill="#ef4444"/>
+    <circle cx="40" cy="21" r="5" fill="#f59e0b"/>
+    <circle cx="56" cy="21" r="5" fill="#10b981"/>
+    <text x="80" y="26" fill="#94a3b8" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="600">TaxVantage Secure Vault • FY 2023-2024 (AY 2024-25)</text>
+    
+    <!-- Content Area -->
+    <rect x="24" y="60" width="260" height="130" rx="8" fill="#0f172a" stroke="#334155"/>
+    <text x="40" y="90" fill="#94a3b8" font-family="'Plus Jakarta Sans', sans-serif" font-size="12">ITR Status</text>
+    <text x="40" y="120" fill="#ffffff" font-family="'Plus Jakarta Sans', sans-serif" font-size="20" font-weight="700">Verified &amp; E-Filed</text>
+    <rect x="40" y="138" width="110" height="24" rx="12" fill="#10b981" fill-opacity="0.2"/>
+    <text x="52" y="154" fill="#34d399" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="700">Ack: 98471203</text>
+    
+    <rect x="310" y="60" width="260" height="130" rx="8" fill="#0f172a" stroke="#334155"/>
+    <text x="326" y="90" fill="#94a3b8" font-family="'Plus Jakarta Sans', sans-serif" font-size="12">Assigned Chartered Accountant</text>
+    <text x="326" y="120" fill="#ffffff" font-family="'Plus Jakarta Sans', sans-serif" font-size="18" font-weight="700">CA Rajesh Verma</text>
+    <text x="326" y="145" fill="#38bdf8" font-family="'Plus Jakarta Sans', sans-serif" font-size="12">ICAI Reg: FCA-49102 • 12+ Yrs</text>
+    
+    <!-- Timeline in hero -->
+    <rect x="24" y="210" width="552" height="145" rx="8" fill="#0f172a" stroke="#334155"/>
+    <text x="40" y="240" fill="#f8fafc" font-family="'Plus Jakarta Sans', sans-serif" font-size="14" font-weight="700">10-Stage CA Direct Workflow</text>
+    
+    <g transform="translate(40, 265)">
+      <circle cx="15" cy="15" r="14" fill="#10b981"/>
+      <path d="M9 15L13 19L21 11" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/>
+      <line x1="30" y1="15" x2="100" y2="15" stroke="#10b981" stroke-width="3"/>
+      
+      <circle cx="115" cy="15" r="14" fill="#10b981"/>
+      <path d="M109 15L113 19L121 11" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/>
+      <line x1="130" y1="15" x2="200" y2="15" stroke="#10b981" stroke-width="3"/>
+      
+      <circle cx="215" cy="15" r="14" fill="#10b981"/>
+      <path d="M209 15L213 19L221 11" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/>
+      <line x1="230" y1="15" x2="300" y2="15" stroke="#2563eb" stroke-width="3"/>
+      
+      <circle cx="315" cy="15" r="14" fill="#2563eb"/>
+      <text x="310" y="20" fill="#ffffff" font-size="12" font-weight="700">4</text>
+      <line x1="330" y1="15" x2="400" y2="15" stroke="#475569" stroke-width="3"/>
+      
+      <circle cx="415" cy="15" r="14" fill="#334155"/>
+      <text x="410" y="20" fill="#94a3b8" font-size="12">5</text>
+      
+      <text x="5" y="45" fill="#cbd5e1" font-size="10" font-family="'Plus Jakarta Sans', sans-serif">Upload</text>
+      <text x="100" y="45" fill="#cbd5e1" font-size="10" font-family="'Plus Jakarta Sans', sans-serif">CA Assigned</text>
+      <text x="200" y="45" fill="#cbd5e1" font-size="10" font-family="'Plus Jakarta Sans', sans-serif">CA Review</text>
+      <text x="300" y="45" fill="#60a5fa" font-size="10" font-family="'Plus Jakarta Sans', sans-serif">Filing</text>
+      <text x="405" y="45" fill="#64748b" font-size="10" font-family="'Plus Jakarta Sans', sans-serif">Done</text>
+    </g>
+  </g>
+</svg>

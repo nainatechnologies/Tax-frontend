@@ -1,0 +1,125 @@
+/* ==========================================================================
+   Responsive Breakpoints & Mobile Adaptations
+   ========================================================================== */
+
+/* Large Desktop (1280px+) */
+@media (min-width: 1280px) {
+  .container {
+    max-width: var(--container-width);
+  }
+}
+
+/* Tablets & Small Laptops (max 1024px) */
+@media (max-width: 1024px) {
+  .grid-4 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .section-title {
+    font-size: var(--font-size-3xl);
+  }
+  
+  .dashboard-layout {
+    flex-direction: column;
+  }
+  
+  .dashboard-sidebar {
+    width: 100% !important;
+    border-right: none !important;
+    border-bottom: 1px solid var(--border);
+  }
+}
+
+/* Tablets (max 768px) */
+@media (max-width: 768px) {
+  .section {
+    padding: 3.5rem 0;
+  }
+  
+  .grid-2, .grid-3 {
+    grid-template-columns: 1fr;
+  }
+  
+  .section-header {
+    margin-bottom: 2.5rem;
+  }
+  
+  .section-title {
+    font-size: var(--font-size-2xl);
+  }
+  
+  .section-description {
+    font-size: var(--font-size-base);
+  }
+  
+  .hero-buttons {
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .hero-buttons .btn {
+    width: 100%;
+  }
+  
+  .table-container {
+    border-radius: var(--radius-sm);
+  }
+  
+  .auth-card-split {
+    grid-template-columns: 1fr !important;
+  }
+  
+  .auth-sidebar-banner {
+    display: none !important;
+  }
+  
+  .workflow-progress-tracker {
+    overflow-x: auto;
+    padding-bottom: 1rem;
+  }
+  
+  .workflow-progress-list {
+    min-width: 650px;
+  }
+}
+
+/* Mobile Devices (max 480px) */
+@media (max-width: 480px) {
+  .container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  
+  .section {
+    padding: 2.5rem 0;
+  }
+  
+  .card {
+    padding: 1.15rem;
+  }
+  
+  .section-title {
+    font-size: 1.5rem;
+  }
+  
+  .btn {
+    padding: 0.65rem 1.15rem;
+    font-size: 0.8125rem;
+  }
+  
+  .btn-lg {
+    padding: 0.85rem 1.5rem;
+    font-size: 0.9375rem;
+  }
+  
+  .stats-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 0.75rem;
+  }
+  
+  .modal-dialog {
+    width: 95% !important;
+    margin: 1rem auto !important;
+    max-height: 90vh;
+  }
+}

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400" fill="none">
+  <defs>
+    <linearGradient id="srv2-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4C1D95"/>
+      <stop offset="100%" stop-color="#0F172A"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#srv2-bg)"/>
+  <g transform="translate(75, 50)">
+    <rect width="450" height="300" rx="16" fill="#0F172A" stroke="#8B5CF6" stroke-width="2"/>
+    <circle cx="225" cy="110" r="45" fill="#8B5CF6" fill-opacity="0.2"/>
+    <path d="M210 120 C205 105 215 95 225 95 C235 95 245 105 240 120 Z" stroke="#C084FC" stroke-width="3" fill="none"/>
+    <circle cx="225" cy="112" r="6" fill="#C084FC"/>
+    <text x="225" y="190" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="20" font-weight="700" fill="#FFFFFF">Brand &amp; UI/UX Experience</text>
+    <text x="225" y="220" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" fill="#94A3B8">Design Systems, User Research, Interactive Prototyping</text>
+    <rect x="160" y="245" width="130" height="30" rx="6" fill="#7C3AED"/>
+    <text x="225" y="265" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="600" fill="#FFFFFF">Award-Winning</text>
+  </g>
+</svg>

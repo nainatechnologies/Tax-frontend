@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" fill="none">
+  <defs>
+    <linearGradient id="slider2_bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b132b" />
+      <stop offset="60%" stop-color="#1c2541" />
+      <stop offset="100%" stop-color="#0a1128" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" rx="16" fill="url(#slider2_bg)"/>
+  <circle cx="200" cy="150" r="160" fill="#3b82f6" fill-opacity="0.12" filter="blur(40px)"/>
+  
+  <g transform="translate(120, 70)">
+    <rect x="0" y="0" width="560" height="360" rx="12" fill="#1e293b" stroke="#334155" stroke-width="2"/>
+    <rect x="0" y="0" width="560" height="45" rx="12" fill="#0f172a"/>
+    <text x="30" y="28" fill="#f8fafc" font-family="'Plus Jakarta Sans', sans-serif" font-size="14" font-weight="700">Corporate &amp; GST Tax Advisory Suite</text>
+    
+    <g transform="translate(30, 70)">
+      <rect x="0" y="0" width="235" height="120" rx="8" fill="#0f172a" stroke="#334155"/>
+      <text x="20" y="35" fill="#94a3b8" font-size="12" font-family="'Plus Jakarta Sans', sans-serif">GST Input Tax Credit (ITC)</text>
+      <text x="20" y="70" fill="#10b981" font-size="24" font-weight="700" font-family="'Plus Jakarta Sans', sans-serif">₹ 4,82,500</text>
+      <text x="20" y="95" fill="#64748b" font-size="11" font-family="'Plus Jakarta Sans', sans-serif">100% Reconciled with GSTR-2B</text>
+      
+      <rect x="265" y="0" width="235" height="120" rx="8" fill="#0f172a" stroke="#334155"/>
+      <text x="285" y="35" fill="#94a3b8" font-size="12" font-family="'Plus Jakarta Sans', sans-serif">Audit Readiness Score</text>
+      <text x="285" y="70" fill="#38bdf8" font-size="24" font-weight="700" font-family="'Plus Jakarta Sans', sans-serif">99.8%</text>
+      <text x="285" y="95" fill="#64748b" font-size="11" font-family="'Plus Jakarta Sans', sans-serif">Statutory Compliance Certified</text>
+      
+      <rect x="0" y="140" width="500" height="120" rx="8" fill="#0f172a" stroke="#334155"/>
+      <text x="20" y="170" fill="#ffffff" font-size="14" font-weight="700" font-family="'Plus Jakarta Sans', sans-serif">Full Corporate Compliance Package</text>
+      <text x="20" y="195" fill="#cbd5e1" font-size="12" font-family="'Plus Jakarta Sans', sans-serif">• GSTR-1, GSTR-3B &amp; Annual GSTR-9 Filing</text>
+      <text x="20" y="218" fill="#cbd5e1" font-size="12" font-family="'Plus Jakarta Sans', sans-serif">• Advance Tax Calculations &amp; TDS Return Validation</text>
+      <text x="20" y="240" fill="#cbd5e1" font-size="12" font-family="'Plus Jakarta Sans', sans-serif">• Dedicated Corporate Tax CA Partner Assigned</text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,50 @@
+.profile-page {
+  padding: 3rem 0 5rem 0;
+}
+
+.profile-grid-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+.profile-fields-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.masked-credential-box {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  background-color: #f8fafc;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 0.75rem 1rem;
+}
+
+.masked-credential-box code {
+  font-size: 1rem;
+  font-weight: 800;
+  color: var(--text-primary);
+  flex: 1;
+}
+
+.vault-lock-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  font-size: 0.6875rem;
+  font-weight: 700;
+  color: var(--text-muted);
+  background-color: #f1f5f9;
+  padding: 0.2rem 0.5rem;
+  border-radius: var(--radius-xs);
+}
+
+@media (max-width: 960px) {
+  .profile-grid-form {
+    grid-template-columns: 1fr;
+  }
+}

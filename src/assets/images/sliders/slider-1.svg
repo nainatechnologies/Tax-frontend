@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" fill="none">
+  <defs>
+    <linearGradient id="s1-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F172A"/>
+      <stop offset="50%" stop-color="#1E293B"/>
+      <stop offset="100%" stop-color="#0284C7"/>
+    </linearGradient>
+    <linearGradient id="s1-card" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="rgba(255, 255, 255, 0.15)"/>
+      <stop offset="100%" stop-color="rgba(255, 255, 255, 0.03)"/>
+    </linearGradient>
+    <filter id="blur1" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="60"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="800" fill="url(#s1-bg)"/>
+  
+  <!-- Glowing orbs -->
+  <circle cx="850" cy="280" r="220" fill="#2563EB" opacity="0.35" filter="url(#blur1)"/>
+  <circle cx="1050" cy="600" r="180" fill="#0D9488" opacity="0.25" filter="url(#blur1)"/>
+  
+  <!-- Subtle Grid -->
+  <g opacity="0.1" stroke="#FFFFFF" stroke-width="1">
+    <line x1="0" y1="200" x2="1200" y2="200"/>
+    <line x1="0" y1="400" x2="1200" y2="400"/>
+    <line x1="0" y1="600" x2="1200" y2="600"/>
+    <line x1="300" y1="0" x2="300" y2="800"/>
+    <line x1="600" y1="0" x2="600" y2="800"/>
+    <line x1="900" y1="0" x2="900" y2="800"/>
+  </g>
+
+  <!-- Modern Dashboard UI Mockup -->
+  <g transform="translate(480, 140)">
+    <!-- Main glass container -->
+    <rect width="640" height="520" rx="20" fill="#0F172A" fill-opacity="0.85" stroke="rgba(255,255,255,0.2)" stroke-width="1.5"/>
+    
+    <!-- Window bar -->
+    <rect width="640" height="48" rx="20" fill="#1E293B"/>
+    <circle cx="28" cy="24" r="6" fill="#EF4444"/>
+    <circle cx="48" cy="24" r="6" fill="#F59E0B"/>
+    <circle cx="68" cy="24" r="6" fill="#10B981"/>
+    <rect x="200" y="14" width="240" height="20" rx="6" fill="#334155" opacity="0.6"/>
+    
+    <!-- Sidebar -->
+    <rect x="0" y="48" width="160" height="472" fill="#0F172A" fill-opacity="0.6"/>
+    <rect x="20" y="76" width="120" height="14" rx="4" fill="#38BDF8" opacity="0.8"/>
+    <rect x="20" y="106" width="90" height="12" rx="4" fill="#64748B"/>
+    <rect x="20" y="132" width="100" height="12" rx="4" fill="#64748B"/>
+    <rect x="20" y="158" width="80" height="12" rx="4" fill="#64748B"/>
+    
+    <!-- Metric Cards -->
+    <rect x="184" y="72" width="134" height="90" rx="12" fill="#1E293B" stroke="rgba(255,255,255,0.1)"/>
+    <text x="200" y="98" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" fill="#94A3B8">Revenue Growth</text>
+    <text x="200" y="132" font-family="'Plus Jakarta Sans', sans-serif" font-size="22" font-weight="700" fill="#FFFFFF">+284.5%</text>
+    
+    <rect x="334" y="72" width="134" height="90" rx="12" fill="#1E293B" stroke="rgba(255,255,255,0.1)"/>
+    <text x="350" y="98" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" fill="#94A3B8">Active Users</text>
+    <text x="350" y="132" font-family="'Plus Jakarta Sans', sans-serif" font-size="22" font-weight="700" fill="#FFFFFF">148.2k</text>
+
+    <rect x="484" y="72" width="134" height="90" rx="12" fill="#1E293B" stroke="rgba(255,255,255,0.1)"/>
+    <text x="500" y="98" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" fill="#94A3B8">Conversion</text>
+    <text x="500" y="132" font-family="'Plus Jakarta Sans', sans-serif" font-size="22" font-weight="700" fill="#10B981">99.98%</text>
+
+    <!-- Chart Visualization -->
+    <rect x="184" y="180" width="434" height="200" rx="12" fill="#1E293B" stroke="rgba(255,255,255,0.1)"/>
+    <path d="M210 320 C 260 300, 300 240, 360 270 C 420 300, 480 200, 580 220" fill="none" stroke="#2563EB" stroke-width="4" stroke-linecap="round"/>
+    <path d="M210 320 C 260 300, 300 240, 360 270 C 420 300, 480 200, 580 220 L 580 350 L 210 350 Z" fill="url(#s1-card)" opacity="0.3"/>
+    
+    <!-- Secondary Floating Pill -->
+    <g transform="translate(-40, 320)">
+      <rect width="220" height="74" rx="16" fill="#0F172A" stroke="rgba(56, 189, 248, 0.4)" stroke-width="1.5" filter="drop-shadow(0 12px 24px rgba(0,0,0,0.5))"/>
+      <circle cx="36" cy="37" r="18" fill="#10B981"/>
+      <path d="M30 37L34 41L42 33" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="64" y="32" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="600" fill="#94A3B8">SYSTEM STATUS</text>
+      <text x="64" y="52" font-family="'Plus Jakarta Sans', sans-serif" font-size="14" font-weight="700" fill="#FFFFFF">100% Operational</text>
+    </g>
+  </g>
+</svg>

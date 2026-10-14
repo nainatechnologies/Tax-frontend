@@ -1,0 +1,80 @@
+.stages-timeline {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.75rem;
+}
+
+.stage-timeline-card {
+  background-color: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  padding: 2rem;
+  box-shadow: var(--shadow-sm);
+  display: flex;
+  align-items: flex-start;
+  gap: 1.5rem;
+  position: relative;
+  transition: all var(--transition-base);
+}
+
+.stage-timeline-card:hover {
+  transform: translateY(-3px);
+  border-color: var(--accent-color);
+  box-shadow: var(--shadow-lg);
+}
+
+.stage-num-badge {
+  font-size: 1.25rem;
+  font-weight: 900;
+  color: #94a3b8;
+  font-family: monospace;
+  background-color: #f1f5f9;
+  padding: 0.4rem 0.65rem;
+  border-radius: var(--radius-xs);
+  flex-shrink: 0;
+}
+
+.stage-icon-wrap {
+  width: 48px;
+  height: 48px;
+  border-radius: var(--radius-sm);
+  background-color: #eff6ff;
+  color: var(--accent-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.stage-body h3 {
+  font-size: var(--font-size-base);
+  font-weight: 800;
+  color: var(--text-primary);
+  margin-bottom: 0.35rem;
+}
+
+.stage-desc {
+  font-size: var(--font-size-sm);
+  color: var(--text-secondary);
+  line-height: 1.55;
+  margin-bottom: 0.85rem;
+}
+
+.stage-highlight {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--text-muted);
+  background-color: #f8fafc;
+  padding: 0.35rem 0.65rem;
+  border-radius: var(--radius-full);
+  border: 1px solid var(--border-light);
+}
+
+@media (max-width: 960px) {
+  .stages-timeline {
+    grid-template-columns: 1fr;
+  }
+}

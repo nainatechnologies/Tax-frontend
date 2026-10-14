@@ -1,0 +1,264 @@
+.ca-badge-icon {
+  background-color: #ecfdf5;
+  color: #047857;
+  border-color: #a7f3d0;
+}
+
+.ca-stats-row {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.25rem;
+  margin-bottom: 1.75rem;
+}
+
+.ca-stat-card {
+  background-color: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 1.25rem 1.5rem;
+  box-shadow: var(--shadow-xs);
+}
+
+.ca-stat-card .stat-num {
+  display: block;
+  font-size: var(--font-size-2xl);
+  font-weight: 800;
+  color: var(--text-primary);
+  margin-bottom: 0.2rem;
+}
+
+.ca-stat-card .stat-lbl {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  font-weight: 600;
+}
+
+.ca-workspace-grid {
+  display: grid;
+  grid-template-columns: 360px 1fr;
+  gap: 1.75rem;
+  align-items: flex-start;
+}
+
+.ca-cases-roster {
+  background-color: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-sm);
+  overflow: hidden;
+}
+
+.roster-header {
+  padding: 1.25rem;
+  background-color: #fafbfd;
+  border-bottom: 1px solid var(--border);
+}
+
+.roster-title {
+  font-size: var(--font-size-base);
+  font-weight: 800;
+  margin-bottom: 0.85rem;
+}
+
+.roster-controls {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.roster-list {
+  max-height: 650px;
+  overflow-y: auto;
+}
+
+.roster-item-card {
+  padding: 1.15rem 1.25rem;
+  border-bottom: 1px solid var(--border-light);
+  cursor: pointer;
+  transition: all var(--transition-fast);
+}
+
+.roster-item-card:hover {
+  background-color: #f8fafc;
+}
+
+.roster-item-card.selected {
+  background-color: #eff6ff;
+  border-left: 4px solid var(--accent-color);
+}
+
+.roster-case-id {
+  font-family: monospace;
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--text-muted);
+}
+
+.roster-client-name {
+  font-size: var(--font-size-sm);
+  font-weight: 700;
+  color: var(--text-primary);
+  margin: 0.35rem 0 0.15rem 0;
+}
+
+.roster-service-title {
+  font-size: 0.75rem;
+  color: var(--text-secondary);
+  margin-bottom: 0.6rem;
+}
+
+.roster-item-footer {
+  font-size: 0.7rem;
+  color: var(--text-muted);
+}
+
+/* Inspector */
+.ca-case-inspector {
+  min-width: 0;
+}
+.inspector-card {
+  background-color: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  padding: 2rem;
+  box-shadow: var(--shadow-sm);
+}
+
+.inspector-header {
+  margin-bottom: 1.5rem;
+  padding-bottom: 1.25rem;
+  border-bottom: 1px solid var(--border);
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.inspector-case-id {
+  font-family: monospace;
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--accent-color);
+  text-transform: uppercase;
+}
+
+.inspector-client-title {
+  font-size: var(--font-size-2xl);
+  font-weight: 800;
+  color: var(--text-primary);
+  margin: 0.2rem 0;
+}
+
+.inspector-subtitle {
+  font-size: var(--font-size-sm);
+  color: var(--text-muted);
+}
+
+.inspector-top-actions {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  flex-wrap: wrap;
+}
+
+.client-details-strip {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1rem;
+  background-color: #f8fafc;
+  padding: 1rem 1.25rem;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--border);
+  margin-bottom: 2rem;
+  font-size: 0.8125rem;
+}
+
+.client-details-strip span {
+  display: block;
+  font-size: 0.6875rem;
+  color: var(--text-muted);
+  text-transform: uppercase;
+}
+
+.inspector-section {
+  margin-bottom: 2rem;
+}
+
+.inspector-section-header {
+  margin-bottom: 1rem;
+}
+
+.inspector-section-header h4 {
+  font-size: var(--font-size-base);
+  font-weight: 800;
+}
+
+.inspector-section-title {
+  font-size: var(--font-size-base);
+  font-weight: 800;
+  margin-bottom: 1rem;
+}
+
+.ca-doc-action-btns {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 0.35rem;
+}
+
+.tax-computation-worksheet {
+  background-color: #fafbfd;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 1.5rem;
+}
+
+.worksheet-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: var(--font-size-sm);
+  color: var(--text-secondary);
+  margin-bottom: 0.6rem;
+}
+
+.worksheet-divider {
+  height: 1px;
+  background-color: var(--border);
+  margin: 0.85rem 0;
+}
+
+.worksheet-highlight {
+  font-size: var(--font-size-base);
+  color: var(--text-primary);
+}
+
+.refund-val {
+  font-size: var(--font-size-xl);
+  color: #059669;
+}
+
+.empty-inspector {
+  background-color: var(--surface);
+  border: 1px dashed var(--border);
+  border-radius: var(--radius-md);
+  padding: 5rem 2rem;
+  text-align: center;
+  color: var(--text-muted);
+}
+
+.empty-inspector h4 {
+  margin-top: 1rem;
+  font-size: var(--font-size-base);
+  color: var(--text-secondary);
+}
+
+@media (max-width: 1024px) {
+  .ca-stats-row {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .ca-workspace-grid {
+    grid-template-columns: 1fr;
+  }
+  .client-details-strip {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

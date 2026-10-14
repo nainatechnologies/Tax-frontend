@@ -1,0 +1,175 @@
+.admin-stats-grid-6 {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+@media (max-width: 1200px) {
+  .admin-stats-grid-6 {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 640px) {
+  .admin-stats-grid-6 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.admin-badge-icon {
+  background-color: #f0fdfa;
+  color: #0d9488;
+  border-color: #99f6e4;
+}
+
+.stat-icon-wrap {
+  width: 44px;
+  height: 44px;
+  border-radius: var(--radius-sm);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0.75rem;
+}
+
+.stat-icon-wrap.icon-users {
+  background-color: #eff6ff;
+  color: var(--accent-color);
+}
+
+.stat-icon-wrap.icon-pending {
+  background-color: #fffbeb;
+  color: #d97706;
+}
+
+.stat-icon-wrap.icon-cases {
+  background-color: #f5f3ff;
+  color: #7c3aed;
+}
+
+.stat-icon-wrap.icon-review {
+  background-color: #e0f2fe;
+  color: #0284c7;
+}
+
+.stat-icon-wrap.icon-payment {
+  background-color: #fef3c7;
+  color: #b45309;
+}
+
+.stat-icon-wrap.icon-completed {
+  background-color: #ecfdf5;
+  color: #059669;
+}
+
+.admin-stat-card {
+  background-color: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  padding: 1.25rem 1.15rem;
+  box-shadow: var(--shadow-xs);
+  transition: transform var(--transition-fast);
+}
+
+.admin-stat-card:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-sm);
+}
+
+.admin-stat-card .stat-num {
+  display: block;
+  font-size: var(--font-size-2xl);
+  font-weight: 800;
+  color: var(--text-primary);
+  line-height: 1.2;
+}
+
+.admin-stat-card .stat-lbl {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  font-weight: 600;
+  margin-top: 0.25rem;
+}
+
+.ca-admin-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.25rem;
+}
+
+.ca-admin-card {
+  background-color: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 1.5rem;
+}
+
+.ca-emp-id {
+  font-family: monospace;
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--text-muted);
+}
+
+.ca-admin-name {
+  font-size: var(--font-size-base);
+  font-weight: 800;
+  color: var(--text-primary);
+  margin: 0.5rem 0 0.2rem 0;
+}
+
+.ca-admin-spec {
+  font-size: var(--font-size-xs);
+  color: var(--accent-color);
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.ca-admin-stats-row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.5rem;
+  padding: 0.75rem;
+  background-color: var(--surface-alt);
+  border-radius: var(--radius-xs);
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.ca-admin-stats-row small {
+  display: block;
+  font-size: 0.6875rem;
+  color: var(--text-muted);
+}
+
+.ca-admin-stats-row strong {
+  font-size: var(--font-size-xs);
+  color: var(--text-primary);
+}
+
+.ca-admin-contact {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  font-size: 0.75rem;
+  color: var(--text-secondary);
+}
+
+.ca-assigned-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--accent-color);
+  background-color: #eff6ff;
+  padding: 0.2rem 0.5rem;
+  border-radius: var(--radius-xs);
+}
+
+.role-tag-sub {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  font-weight: 600;
+}

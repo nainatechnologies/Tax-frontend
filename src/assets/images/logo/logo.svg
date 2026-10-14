@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 60" fill="none">
+  <rect width="240" height="60" rx="8" fill="transparent"/>
+  <g transform="translate(8, 8)">
+    <rect x="0" y="0" width="44" height="44" rx="10" fill="#0f172a"/>
+    <path d="M12 28L20 36L32 14" stroke="#10b981" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="32" cy="14" r="3" fill="#2563eb"/>
+    <path d="M14 16H24" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/>
+  </g>
+  <text x="62" y="32" font-family="'Plus Jakarta Sans', sans-serif" font-weight="800" font-size="22" fill="#0f172a" letter-spacing="-0.5">
+    Tax<tspan fill="#2563eb">Vantage</tspan>
+  </text>
+  <text x="62" y="46" font-family="'Plus Jakarta Sans', sans-serif" font-weight="600" font-size="9" fill="#64748b" letter-spacing="1.2">
+    CA-VERIFIED TAX PLATFORM
+  </text>
+</svg>

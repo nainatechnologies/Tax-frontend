@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400" fill="none">
+  <defs>
+    <linearGradient id="p2-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F172A"/>
+      <stop offset="100%" stop-color="#1E3A8A"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#p2-bg)"/>
+  <circle cx="480" cy="200" r="130" fill="#38BDF8" opacity="0.15"/>
+  <g transform="translate(60, 45)">
+    <rect width="480" height="310" rx="16" fill="#0B1120" stroke="rgba(56, 189, 248, 0.25)" stroke-width="1.5"/>
+    <text x="30" y="45" font-family="'Plus Jakarta Sans', sans-serif" font-size="16" font-weight="700" fill="#FFFFFF">Realtime Analytics Suite</text>
+    
+    <!-- Bar charts -->
+    <rect x="40" y="160" width="30" height="90" rx="6" fill="#3B82F6"/>
+    <rect x="85" y="120" width="30" height="130" rx="6" fill="#60A5FA"/>
+    <rect x="130" y="80" width="30" height="170" rx="6" fill="#2563EB"/>
+    <rect x="175" y="140" width="30" height="110" rx="6" fill="#93C5FD"/>
+    <rect x="220" y="100" width="30" height="150" rx="6" fill="#38BDF8"/>
+    
+    <!-- KPI card -->
+    <rect x="280" y="80" width="170" height="75" rx="10" fill="#1E293B"/>
+    <text x="295" y="105" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#94A3B8">Retention Rate</text>
+    <text x="295" y="138" font-family="'Plus Jakarta Sans', sans-serif" font-size="20" font-weight="700" fill="#10B981">94.8% (+12%)</text>
+    
+    <rect x="280" y="170" width="170" height="80" rx="10" fill="#1E293B"/>
+    <text x="295" y="195" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#94A3B8">Average LTV</text>
+    <text x="295" y="228" font-family="'Plus Jakarta Sans', sans-serif" font-size="20" font-weight="700" fill="#38BDF8">$2,450.00</text>
+  </g>
+</svg>

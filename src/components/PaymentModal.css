@@ -1,0 +1,85 @@
+.payment-modal-body {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.fee-breakdown-card {
+  background-color: #f8fafc;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 1.25rem;
+}
+
+.breakdown-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: var(--font-size-sm);
+  color: var(--text-secondary);
+  margin-bottom: 0.5rem;
+}
+
+.breakdown-divider {
+  height: 1px;
+  background-color: var(--border);
+  margin: 0.75rem 0;
+}
+
+.breakdown-total {
+  font-size: var(--font-size-base);
+  color: var(--text-primary);
+}
+
+.total-value {
+  font-size: var(--font-size-xl);
+  color: #059669;
+}
+
+.payment-method-selector {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.method-pills {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.method-pill {
+  flex: 1;
+  padding: 0.65rem 0.5rem;
+  border: 1.5px solid var(--border);
+  background-color: #ffffff;
+  border-radius: var(--radius-sm);
+  font-size: var(--font-size-xs);
+  font-weight: 700;
+  color: var(--text-secondary);
+  cursor: pointer;
+  text-align: center;
+  transition: all var(--transition-fast);
+}
+
+.method-pill:hover {
+  border-color: var(--accent-color);
+}
+
+.method-pill.active {
+  border-color: var(--accent-color);
+  background-color: var(--accent-light);
+  color: var(--accent-color);
+}
+
+.payment-guarantee-note {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.6rem;
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  line-height: 1.4;
+  background-color: #f0fdf4;
+  border: 1px solid #bbf7d0;
+  padding: 0.65rem 0.85rem;
+  border-radius: var(--radius-xs);
+}

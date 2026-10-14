@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" fill="none">
+  <rect width="600" height="400" rx="16" fill="#0f172a"/>
+  <g transform="translate(80, 70)">
+    <rect x="0" y="0" width="440" height="260" rx="12" fill="#1e293b" stroke="#334155"/>
+    <rect x="40" y="40" width="360" height="50" rx="8" fill="#0f172a" stroke="#334155"/>
+    <text x="60" y="70" fill="#38bdf8" font-size="13" font-weight="600" font-family="'Plus Jakarta Sans', sans-serif">Direct CA Hotline: +91 (080) 4129-8800</text>
+    
+    <rect x="40" y="105" width="360" height="50" rx="8" fill="#0f172a" stroke="#334155"/>
+    <text x="60" y="135" fill="#34d399" font-size="13" font-weight="600" font-family="'Plus Jakarta Sans', sans-serif">Email: priority@taxvantage.in (2-Hr Turnaround)</text>
+    
+    <rect x="40" y="170" width="360" height="60" rx="8" fill="#0f172a" stroke="#334155"/>
+    <text x="60" y="195" fill="#ffffff" font-size="12" font-weight="700" font-family="'Plus Jakarta Sans', sans-serif">Principal Tax Consultancy Offices</text>
+    <text x="60" y="215" fill="#94a3b8" font-size="11" font-family="'Plus Jakarta Sans', sans-serif">Level 8, Prestige Towers, Residency Road, Bengaluru 560025</text>
+  </g>
+</svg>

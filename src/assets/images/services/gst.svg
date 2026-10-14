@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" fill="none">
+  <rect width="600" height="400" rx="12" fill="#0f172a"/>
+  <rect x="40" y="40" width="520" height="320" rx="8" fill="#1e293b" stroke="#334155"/>
+  <g transform="translate(80, 80)">
+    <rect x="0" y="0" width="80" height="80" rx="16" fill="#10b981" fill-opacity="0.15"/>
+    <rect x="25" y="25" width="30" height="30" rx="4" stroke="#34d399" stroke-width="3" fill="none"/>
+    <path d="M30 40H50" stroke="#34d399" stroke-width="3" stroke-linecap="round"/>
+    <text x="110" y="35" fill="#ffffff" font-size="22" font-weight="700" font-family="'Plus Jakarta Sans', sans-serif">GST Compliance &amp; Filing</text>
+    <text x="110" y="62" fill="#94a3b8" font-size="14" font-family="'Plus Jakarta Sans', sans-serif">Registration, Monthly GSTR-1/3B &amp; Annual Reconciliation</text>
+    
+    <line x1="0" y1="110" x2="440" y2="110" stroke="#334155"/>
+    
+    <text x="0" y="150" fill="#cbd5e1" font-size="13" font-family="'Plus Jakarta Sans', sans-serif">✓ Automated GSTR-2B Input Tax Credit (ITC) Matching</text>
+    <text x="0" y="180" fill="#cbd5e1" font-size="13" font-family="'Plus Jakarta Sans', sans-serif">✓ Zero Late-Fee Guarantee with CA Timely Submission</text>
+    <text x="0" y="210" fill="#cbd5e1" font-size="13" font-family="'Plus Jakarta Sans', sans-serif">✓ E-Way Bill &amp; E-Invoicing Setup Advisory</text>
+  </g>
+</svg>
